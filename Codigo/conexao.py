@@ -2,7 +2,7 @@ import mysql.connector
 
 class Conexao:
     def __init__(self):
-        self.connection = mysql.connector.connect(host="localhost", user="root", password="Pokemon123.")
+        self.connection = mysql.connector.connect(host="SEUHOST", user="SEUUSER", password="SUASENHA")
 
     def getConnection(self):
         return self.connection
